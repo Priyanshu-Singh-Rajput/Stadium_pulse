@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
-import { db } from '../../../lib/firebase-admin';
-import { TimelineEvent } from '../../../types';
+import { db } from '@/lib/firebase-admin';
+import { TimelineEvent } from '@/types';
 
 export const revalidate = 0; // Disable static caching for live data
 

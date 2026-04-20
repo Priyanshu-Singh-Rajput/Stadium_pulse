@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
-import { db } from '../../lib/firebase-admin';
-import { FoodItem } from '../../types';
+import { db } from '@/lib/firebase-admin';
+import { FoodItem } from '@/types';
 
 export const revalidate = 60; // Revalidate every 60 seconds
 

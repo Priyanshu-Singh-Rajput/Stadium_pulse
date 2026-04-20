@@ -5,6 +5,8 @@ import PulseCard from '../../components/PulseCard';
 import Button from '../../components/Button';
 import { APIService } from '../../lib/api';
 
+export const dynamic = 'force-dynamic';
+
 const foodEmojis: Record<string, string> = {
   'HOT FOOD': '🌭',
   'SNACKS': '🍿',

@@ -4,6 +4,8 @@ import ActionChip from '../../components/ActionChip';
 import PulseCard from '../../components/PulseCard';
 import { APIService } from '../../lib/api';
 
+export const dynamic = 'force-dynamic';
+
 const pinClassMap: Record<string, string> = {
   GATE: 'map-pin-gate',
   RESTROOM: 'map-pin-restroom',

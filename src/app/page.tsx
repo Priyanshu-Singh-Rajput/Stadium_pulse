@@ -4,6 +4,8 @@ import ActionChip from '../components/ActionChip';
 import BottomNav from '../components/BottomNav';
 import { APIService } from '../lib/api';
 
+export const dynamic = 'force-dynamic';
+
 export default async function HubPage() {
   let matchData: any;
   let highlights: any[] = [];
