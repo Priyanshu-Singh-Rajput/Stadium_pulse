@@ -2,6 +2,7 @@ import { NextResponse } from 'next/server';
 import { db } from '@/lib/firebase-admin';
 import { Event } from '@/types';
 
+export const dynamic = 'force-dynamic';
 export const revalidate = 0; // Disable static caching for live data
 
 export async function GET() {

@@ -2,6 +2,7 @@ import { NextResponse } from 'next/server';
 import { db } from '@/lib/firebase-admin';
 import { MapLocation } from '@/types';
 
+export const dynamic = 'force-dynamic';
 export const revalidate = 3600; // Map locations change rarely, cache for 1 hour
 
 export async function GET() {
