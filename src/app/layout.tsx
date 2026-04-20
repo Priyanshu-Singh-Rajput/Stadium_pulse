@@ -13,7 +13,7 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: "ANTIGRAVITY | Stadium Pulse",
+  title: "Stadium Pulse",
   description: "Live Event Hub for Stadiums",
 };
 

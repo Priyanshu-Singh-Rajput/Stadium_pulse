@@ -8,7 +8,7 @@ export default function WalletPage() {
     <div style={{ padding: '2rem 1rem 6rem 1rem', maxWidth: '480px', margin: '0 auto' }}>
       {/* Header */}
       <header className="animate-fade-in" style={{ marginBottom: '1.5rem' }}>
-        <p className="label-sm" style={{ marginBottom: '0.5rem' }}>⬡ ANTIGRAVITY</p>
+        <p className="label-sm" style={{ marginBottom: '0.5rem' }}>⬡ STADIUM PULSE</p>
         <h1 className="headline display-lg text-gradient">EVENT<br />PASS</h1>
         <p className="body-sm" style={{ marginTop: '0.5rem', letterSpacing: '0.15em', textTransform: 'uppercase', fontSize: '0.7rem' }}>
           Your tickets, passes & access
